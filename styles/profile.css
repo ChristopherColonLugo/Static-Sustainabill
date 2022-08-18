@@ -1,0 +1,39 @@
+.stats{
+    display: flex;
+    font-size: large;
+}
+
+.stat-info{
+    width: 50vw;
+}
+
+.stat-info h1, .stat-info h2{
+    margin: 5px 0 5px 0;
+}
+
+.diagramm{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+}
+
+.compareparagraph{
+    text-align: center;
+}
+
+.compare div img{
+    width: 10vw;
+    height: fit-content;
+}
+
+.compare{
+    margin: auto;
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.greenarrow{
+    height: 40px;
+}

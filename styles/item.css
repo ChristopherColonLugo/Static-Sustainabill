@@ -1,0 +1,28 @@
+.midsection{
+    display: flex;
+    align-items: center;
+    width: 800px;
+    margin: auto;
+}
+
+p{
+    color: rgb(182, 182, 182);
+    font-size: small;
+}
+.ss-info{
+    border-radius: 5px;
+    padding: 20px;
+    color: white;
+    background-color: rgb(0, 105, 0);
+}
+
+.ss-info h2{
+    margin: 0;
+    color: white;
+    background-color: rgb(0, 105, 0);
+}
+
+.item-image{
+    width: 400px;
+    display: block;
+}
