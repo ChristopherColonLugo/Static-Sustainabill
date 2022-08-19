@@ -20,8 +20,6 @@ vendorBillsMap.set(btnEdeka, edekaBills);
 var aldiBills = document.getElementsByClassName("aldi-bill");
 vendorBillsMap.set(btnAldi, aldiBills);
 
-console.log(vendorBillsMap.get(btnRewe))
-
 
 vendorArray.forEach(vendor => {
     vendor.style.backgroundColor = vendorColorMap.get(vendor);
@@ -58,6 +56,18 @@ vendorArray.forEach(vendor => {
 
     }
 });
+
+
+const SScore = document.querySelectorAll("td:nth-child(4)");
+for (let index = 0; index < SScore.length; index++) {
+    console.log(parseInt(SScore.item(index).innerHTML));
+
+    //linear interpolating between rgb(152,0,0) and rgb(0,152,0)
+    const fraction = parseInt(SScore.item(index).innerHTML)/1000.0;
+    const R = parseInt((-240) * fraction + 240);
+    const G = parseInt((240) * fraction);
+    SScore.item(index).style.color = "rgb("+R+","+G+",0)";
+}
 
 
 
