@@ -3,37 +3,37 @@ a {
 }
 
 .info-dropdown{
-    display: none;
+    display: flex;
     background-color: #353762;
     text-shadow: 0px 0px 5px rgb(0, 0, 0);
     color: #f9f9f9;
     height: 60px;
     text-align: center;
     font-size: small;
-}
-
-.info-btn-section{
-    width: 10vw;
-    
-}
-
-.info-midsection{
-    width: 70vw;
-}
-
-.info-rightsection{
-    width: 20vw;
-}
-
-.mainsection:hover .info-dropdown{
-    display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.info-btn-section{
+    flex-grow: 1;
+    
+}
+
+.info-midsection{
+    flex-grow: 100;
+}
+
+.info-rightsection{
+    width: 200px;
+}
+
+.mainsection{
+    display: flex;
+}
+
 
 .btn-section{
-    width: 10vw;
+    flex-grow: 1;
     min-width: 80px;
     display: flex;
     flex-direction: column;
@@ -54,11 +54,12 @@ button{
 }
 .btn-vendor img{
     width: 4vw;
+    min-width: 32px;
 }
 
 .midsection{
     background-color: rgb(211,32,39);
-    flex-grow: 3;
+    flex-grow: 7;
     color: white;
 }
 
@@ -73,18 +74,13 @@ table{
     box-shadow: 2px 2px 5px black;
     font-family: Arial, Helvetica, sans-serif;
     color: #353762;
+    font-size: 1.35vw;
 
 }
+
 
 td{
     text-align: center;
-}
-
-th:first-child{
-    width: 19.2vw;
-}
-th:nth-child(2),th:nth-child(3){
-    width: 4vw;
 }
 
 td:first-child{
@@ -95,10 +91,7 @@ td:nth-child(4){
     text-shadow: 1px 1px 1px black;
 }
 
-td:last-child{
-    font-weight: bold;
-    text-align: center;
-}
+
 
 .bill-total{
     margin-bottom: 50px;
@@ -112,14 +105,20 @@ td:last-child{
     display: none;
 }
 
+.ss-dropdown{
+    position: relative;
+}
+
 .dropdown-content{
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    width: 10vw;
+    box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.2);
+    border-radius: 5px;
     padding: 12px;
     z-index: 1;
+    
 }
 
 .ss-dropdown:hover .dropdown-content{
@@ -127,20 +126,25 @@ td:last-child{
 }
 
 .rightsection {
-    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
 }
 
-.rightsection img{
-    width: 20vw;
-}
 
 @media  screen and (max-width: 660px) {
-    table{
-        font-size: 10px;
-    }
+
 
     .info-dropdown{
         font-size: 10px;
+    }
+
+    .rightsection{
+        width: 150px;
+    }
+
+    .info-rightsection{
+        width: 150px;
     }
 }
 
@@ -152,5 +156,12 @@ td:last-child{
 
     .info-dropdown{
         font-size: 7px;
+    }
+
+    .rightsection{
+        width: 70px;
+    }
+    .info-rightsection{
+        width: 70px;
     }
 }

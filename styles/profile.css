@@ -7,6 +7,7 @@
     width: 50vw;
 }
 
+
 .stat-info h1, .stat-info h2{
     margin: 5px 0 5px 0;
 }
@@ -27,8 +28,8 @@
 }
 
 .compare{
+    max-width: 550px;
     margin: auto;
-    width: 50vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,4 +37,22 @@
 
 .greenarrow{
     height: 40px;
+}
+
+@media (max-width: 440px){
+    .stat-info h1{
+        font-size: smaller;
+    }
+
+    .stat-info h2{
+        font-size: small;
+    }
+
+    .stat-info{
+        font-size: 8px;
+    }
+
+    .compare{
+        font-size: small;
+    }
 }

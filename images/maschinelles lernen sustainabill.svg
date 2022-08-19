@@ -64,7 +64,7 @@
   <g id="Drawing_2">
    <path fill="rgb(51,153,255)" fill-opacity="0.502" stroke="rgb(255,255,255)" stroke-opacity="0.502" d="M 15650,5500 L 11300,5500 11300,3500 20000,3500 20000,5500 15650,5500 Z"/>
    <path fill="none" stroke="rgb(0,0,0)" stroke-linejoin="round" d="M 15650,5500 L 11300,5500 11300,3500 20000,3500 20000,5500 15650,5500 Z"/>
-   <g fill="rgb(0,0,0)" stroke="none" font-family="Open Sans embedded" font-size="634" font-style="normal" font-weight="700">
+   <g fill="rgb(0,0,0)" stroke="none" font-family="Open Sans embedded" font-size="635" font-style="normal" font-weight="700">
     <text x="12760" y="4756">
      <tspan x="12760 13374 13759 14077 14394 14771 15059 15224 15634 16011 16299 16701 16989 17374 17793 18119">Wasser Verbrauch</tspan></text>
    </g>
@@ -72,7 +72,7 @@
   <g id="Drawing_3">
    <path fill="rgb(255,255,0)" fill-opacity="0.502" stroke="rgb(255,255,255)" stroke-opacity="0.502" d="M 15650,7900 L 11300,7900 11300,5900 20000,5900 20000,7900 15650,7900 Z"/>
    <path fill="none" stroke="rgb(0,0,0)" stroke-linejoin="round" d="M 15650,7900 L 11300,7900 11300,5900 20000,5900 20000,7900 15650,7900 Z"/>
-   <g fill="rgb(0,0,0)" stroke="none" font-family="Open Sans embedded" font-size="634" font-style="normal" font-weight="700">
+   <g fill="rgb(0,0,0)" stroke="none" font-family="Open Sans embedded" font-size="635" font-style="normal" font-weight="700">
     <text x="12725" y="7156">
      <tspan x="12725 13081 13500 13876 14164 14524 14719 15096 15261 15671 16048 16336 16738 17026 17411 17830 18156">Energie Verbrauch</tspan></text>
    </g>
@@ -80,7 +80,7 @@
   <g id="Drawing_4">
    <path fill="rgb(102,51,0)" fill-opacity="0.502" stroke="rgb(255,255,255)" stroke-opacity="0.502" d="M 15650,10400 L 11300,10400 11300,8400 20000,8400 20000,10400 15650,10400 Z"/>
    <path fill="none" stroke="rgb(0,0,0)" stroke-linejoin="round" d="M 15650,10400 L 11300,10400 11300,8400 20000,8400 20000,10400 15650,10400 Z"/>
-   <g fill="rgb(0,0,0)" stroke="none" font-family="Open Sans embedded" font-size="634" font-style="normal" font-weight="700">
+   <g fill="rgb(0,0,0)" stroke="none" font-family="Open Sans embedded" font-size="635" font-style="normal" font-weight="700">
     <text x="12083" y="9656">
      <tspan x="12083 12502 12879 13196 13514 13908 14327 14615 14941 15317 15736 15901 16312 16689 16977 17379 17667 18052 18471 18797">Ressourcen Verbrauch</tspan></text>
    </g>
@@ -88,7 +88,7 @@
   <g id="Drawing_5">
    <path fill="rgb(0,204,0)" fill-opacity="0.502" stroke="rgb(255,255,255)" stroke-opacity="0.502" d="M 15650,12900 L 11300,12900 11300,10900 20000,10900 20000,12900 15650,12900 Z"/>
    <path fill="none" stroke="rgb(0,0,0)" stroke-linejoin="round" d="M 15650,12900 L 11300,12900 11300,10900 20000,10900 20000,12900 15650,12900 Z"/>
-   <g fill="rgb(0,0,0)" stroke="none" font-family="Open Sans embedded" font-size="634" font-style="normal" font-weight="700">
+   <g fill="rgb(0,0,0)" stroke="none" font-family="Open Sans embedded" font-size="635" font-style="normal" font-weight="700">
     <text x="11861" y="12156">
      <tspan x="11861 12212 12538 12957 13343 13745 14122 14541 14706 15091 15713 15878 16382 16776 17170 17487 17847 18164 18440 18816">Schäden am Ökosystem</tspan></text>
    </g>
@@ -120,7 +120,7 @@
   <g id="Drawing_9">
    <path fill="rgb(178,178,178)" stroke="none" d="M 4300,11300 L 300,11300 300,9300 8300,9300 8300,11300 4300,11300 Z"/>
    <path fill="none" stroke="rgb(0,0,0)" stroke-linejoin="round" d="M 4300,11300 L 300,11300 300,9300 8300,9300 8300,11300 4300,11300 Z"/>
-   <g fill="rgb(0,0,0)" stroke="none" font-family="Arial embedded" font-size="634" font-style="normal" font-weight="700">
+   <g fill="rgb(0,0,0)" stroke="none" font-family="Arial embedded" font-size="635" font-style="normal" font-weight="700">
     <text x="4033" y="10522">
      <tspan x="4033 4211 4389">...</tspan></text>
    </g>
@@ -161,7 +161,7 @@
   <g id="Drawing_21">
    <path fill="rgb(0,204,51)" fill-opacity="0.502" stroke="rgb(255,255,255)" stroke-opacity="0.502" d="M 25250,9500 L 22300,9500 22300,4500 28200,4500 28200,9500 25250,9500 Z"/>
    <path fill="none" stroke="rgb(0,0,0)" stroke-linejoin="round" d="M 25250,9500 L 22300,9500 22300,4500 28200,4500 28200,9500 25250,9500 Z"/>
-   <g fill="rgb(0,0,0)" stroke="none" font-family="Open Sans embedded" font-size="634" font-style="normal" font-weight="700">
+   <g fill="rgb(0,0,0)" stroke="none" font-family="Open Sans embedded" font-size="635" font-style="normal" font-weight="700">
     <text x="22432" y="6644">
      <tspan x="22432 22783 23202 23520 23795 24180 24375 24794 25179 25582 25776 25971 26166 26331 26682 27008 27402 27690">Sustainabill Score</tspan></text>
    </g>

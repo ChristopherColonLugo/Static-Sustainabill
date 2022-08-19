@@ -15,7 +15,7 @@ body{
 }
 
 .profilesection{
-    width: 230px;
+    width: 220px;
     font-size: 12px;
     font-weight: bold;
     display: flex;
@@ -33,6 +33,7 @@ body{
 
 .section-wrapper{
     display: flex;
+    width: 100%;
 }
 
 footer{
@@ -42,7 +43,7 @@ footer{
     height: 200px;
     background-color: #353762;
     color: white;
-    font-size: clamp(3vw, 20px);
+    font-size: clamp(8px, 3vw, 20px);
     text-align: center;
     margin-top: 20px;
 }
@@ -51,4 +52,16 @@ footer div {
     border: solid 3px white;
     width: 80vw;
     box-shadow: 0 0 5px white;
+}
+
+@media screen and (max-width: 440px){
+    #logo{
+        width: 120px;
+    }
+
+    .profilesection{
+        font-size: 8px;
+        width: 160px;
+    }
+
 }
