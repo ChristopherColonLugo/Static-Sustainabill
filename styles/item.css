@@ -24,5 +24,55 @@ p{
 
 .item-image{
     width: 400px;
-    display: block;
+}
+
+@media (max-width: 900px){
+
+    .midsection{
+        width: 600px
+    }
+
+    .item-image{
+        width: 300px;
+    }
+    
+}
+
+@media (max-width: 650px){
+
+    .midsection{
+        width: 400px;
+        font-size: 12px;
+
+    }
+
+    p{
+     font-size: 10px;
+    }
+
+    .item-image{
+        width: 200px;
+    }
+    
+}
+
+@media (max-width: 450px){
+
+    .midsection{
+        flex-direction: column;
+        width: 300px;
+        font-size: 11px;
+
+    }
+
+    p{
+     font-size: 9px;
+     margin-top: 3px;
+     margin-bottom: 3px;
+    }
+
+    .item-image{
+        width: 200px;
+    }
+    
 }
