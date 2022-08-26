@@ -60,7 +60,6 @@ vendorArray.forEach(vendor => {
 
 const SScore = document.querySelectorAll("td:nth-child(4)");
 for (let index = 0; index < SScore.length; index++) {
-    console.log(parseInt(SScore.item(index).innerHTML));
 
     //linear interpolating between rgb(152,0,0) and rgb(0,152,0)
     const fraction = parseInt(SScore.item(index).innerHTML)/1000.0;
@@ -69,6 +68,17 @@ for (let index = 0; index < SScore.length; index++) {
     SScore.item(index).style.color = "rgb("+R+","+G+",0)";
 }
 
+function whenClearOverlayOff(){
+    if(localStorage.getItem("clear")){
+        document.getElementById("overlay").style.display = "none";
+    }
+}
+
+function clarification(){
+    localStorage.setItem("clear", true);
+    whenClearOverlayOff();
+}
+whenClearOverlayOff()
 
 
 
