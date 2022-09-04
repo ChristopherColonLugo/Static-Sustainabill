@@ -68,16 +68,20 @@ for (let index = 0; index < SScore.length; index++) {
     SScore.item(index).style.color = "rgb("+R+","+G+",0)";
 }
 
-function whenClearOverlayOff(){
-    if(localStorage.getItem("clear")){
-        document.getElementById("overlay").style.display = "none";
-    }
-}
-
 function clarification(){
     localStorage.setItem("clear", true);
     whenClearOverlayOff();
 }
+
+
+function whenClearOverlayOff(){
+    if(localStorage.getItem("clear")){
+        document.getElementsByClassName("overlay").item(0).style.display = "none"
+    }else{
+        document.getElementsByClassName("overlay").item(0).style.display = "flex";
+    }
+}
+
 whenClearOverlayOff()
 
 

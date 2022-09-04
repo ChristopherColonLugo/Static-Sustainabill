@@ -24,7 +24,7 @@ a {
 }
 
 .info-rightsection{
-    width: 200px;
+    width: 300px;
 }
 
 .mainsection{
@@ -128,7 +128,7 @@ td:nth-child(4){
 .rightsection {
     display: flex;
     flex-direction: column;
-    width: 200px;
+    width: 300px;
 }
 
 

@@ -75,7 +75,7 @@ footer ul{
 }
 
 
-@media screen and (max-width: 440px){
+@media (max-width: 440px){
     #logo{
         width: 120px;
     }
@@ -85,11 +85,15 @@ footer ul{
         width: 160px;
     }
 
+    .clarification{
+        font-size: 9px;
+      }
+
 }
 
-#overlay {
+.overlay {
     position: fixed; 
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center; 
     width: 100%; 
@@ -103,11 +107,10 @@ footer ul{
     cursor: pointer; 
   }
 
-  #clarification{
+  .clarification{
     padding: 20px;
     background-color: white;
     width: 50%;
     max-width: 400px;
-    font-size: small;
     text-align: center;
   }
